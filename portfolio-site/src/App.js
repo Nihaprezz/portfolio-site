@@ -1,11 +1,12 @@
 import React from 'react';
+import Navbar from './containers/Navbar'
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        This is the APP js file
+        < Navbar />
       </header>
     </div>
   );
