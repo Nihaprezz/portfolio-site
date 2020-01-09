@@ -1,0 +1,42 @@
+.projects-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 2vw 1vh;
+}
+
+.gc-img {
+    background: url('../pictures/GameCouch/GC1.png'); 
+}
+
+.mh-img {
+    background: url('../pictures/MovieHangout/MovieH1.png')
+}
+
+.bq-img {
+    background: url('../pictures/BrewQueue/BrewQ1.png')
+}
+
+.bd-img {
+    background: url('../pictures/BurgerDiner/BD1.png')
+}
+
+.project-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50vw;
+    height: 50vh;
+}
+
+@media only screen and (max-width: 500px) {
+    .projects-page {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .project-img {
+        width: 100vw;
+        height: 33vh;
+    }
+}
