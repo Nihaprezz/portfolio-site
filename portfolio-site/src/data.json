@@ -1,0 +1,22 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "api_id": "58754",
+        "name": "The Game Couch",
+        "image": "https://media.rawg.io/media/games/f50/f508d531f14694d2bbe172df48defcfd.jpg"
+      },
+      {
+        "id": "2",
+        "api_id": "58617",
+        "name": "Movie Hangout",
+        "image": "https://media.rawg.io/media/games/b0f/b0fe8b7819dc657e12d254ec240aad0e.jpg"
+      },
+      {
+        "id": "4",
+        "api_id": "Brewque",
+        "name": "Star Wars Jedi: Fallen Order",
+        "image": "https://media.rawg.io/media/games/2cc/2ccb3faee462619e65884711c5ec2ff6.jpg"
+      }  
+    ]
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom"
 import "../styles/projects_page.scss"
 
 class ProjectsPage extends React.Component {
@@ -8,12 +9,12 @@ class ProjectsPage extends React.Component {
             <div className="projects-page">
                 <div className="project-card">
                     <p>The Game Couch</p>
-                    <div className="gc-img project-img"></div>
+                    <Link to="/projects/gamecouch"><div className="gc-img project-img"></div></Link>
                 </div>
 
                 <div className="project-card">
                     <p>Movie Hangout</p>
-                    <div className="mh-img project-img"></div>
+                    <Link to="/projects/moviehangout"><div className="mh-img project-img"></div></Link>
                 </div>
 
                 <div className="project-card">
