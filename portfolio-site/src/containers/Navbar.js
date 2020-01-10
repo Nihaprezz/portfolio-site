@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'react-router-dom'
 
 class Navbar extends React.Component {
 
@@ -16,15 +17,16 @@ class Navbar extends React.Component {
 
                     <ul class="navbar-nav my-2 my-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Projects</a>
+                            <Link className="nav-link" to="/projects">Projects</Link>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/">About</a>
+                            <Link className="nav-link" to="/about">About</Link>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="/">Other</a>
+                            {/*eslint-disable-next-line */ }
+                            <a className="nav-link" target="_blank" href="https://drive.google.com/file/d/1UOFUXCLAaxE_xoJfaOSNXKeDDOr8tTH0/view?usp=sharing">Resume</a>
                         </li>
                     </ul>
                 </div>

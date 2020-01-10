@@ -3,6 +3,7 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 
 import Navbar from './containers/Navbar'
 import HomePage from './Home/HomePage'
+import About from './containers/About'
 import ProjectsPage from './Projects/ProjectsPage'
 import GameCouch from './Projects/GameCouch'
 import MovieHangout from './Projects/MovieHangout'
@@ -18,6 +19,7 @@ function App() {
       <Switch>
         <Route exact path="/" render={() => <Redirect to="/home"/>}/>
         <Route exact path="/home" render={() => < HomePage />} />
+        <Route exact path="/about" render={() => < About />} />
         <Route exact path="/projects" component={ProjectsPage} />
         <Route exact path="/projects/gamecouch" component={GameCouch} />
         <Route exact path="/projects/moviehangout" component={MovieHangout} />
