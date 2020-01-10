@@ -1,9 +1,14 @@
+@import 'variables.scss';
+
 .projects-page {
+    background: $purple;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns:1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 2vw 1vh;
+    padding-bottom: 2%;
 }
+
+
 
 .gc-img {
     background: url('../pictures/GameCouch/GC1.png'); 
@@ -25,8 +30,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    width: 50vw;
-    height: 50vh;
+    width: 45vw;
+    height: 45vh;
 }
 
 @media only screen and (max-width: 500px) {
