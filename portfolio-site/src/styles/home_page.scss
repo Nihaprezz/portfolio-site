@@ -1,0 +1,101 @@
+@import 'variables.scss';
+
+// NAVBAR STYLING *****
+#my-nav-bar {
+    background: $purple !important;
+}
+
+#my-nav-bar a {
+    font-family: $primaryFont;
+    color: white;
+    font-weight: bold;
+    letter-spacing: .1vw;
+}
+
+#my-nav-bar .navbar-brand {
+    color: $orange;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+//HOME PAGE STYLING ****
+.home-page {
+    height: 100vh;
+    background: $purple;
+    display: grid;
+    grid-template-columns: .3fr 1fr .3fr;
+    grid-template-rows: .3fr 1fr .3fr;
+    grid-template-areas: 
+    ". . ."
+    ". details ."
+    ". . .";
+}
+
+.home-page-details-container {
+    justify-self: center;
+    grid-area: details;
+    color: white;
+    font-family: $primaryFont;
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: .2vh;
+
+    display: grid;
+
+    span {
+        color: $orange;  
+    }
+
+    .intro {
+        align-self: center;  
+    }
+
+    a {
+        justify-self: center;
+        align-self: start;
+        
+        button {
+            font-size: 1.5rem;
+            background: $orange;
+            border: none;
+            border-radius: 50px;
+            padding: .6rem;
+            line-height: 1;
+            color: white;
+            letter-spacing: .1vh;
+            padding: 10%;
+            transition: all .2s ease-in-out, background .4s, color .4s ease-in-out;
+        }
+
+        button:hover{
+            background: $brown;
+            box-shadow: 0px 0px 10px $brown;
+            transform: scale(1.1);
+        }
+        
+    }
+
+    .home-icons {
+        justify-self: center;
+
+        i {
+            padding: 2vw;
+            font-size: 3rem;
+            color: white;
+            transition: all .2s ease-in-out;
+        }
+
+        i:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+
+// HOME PAGE MEDIA QUERIES
+@media only screen and (max-width: 375px) {
+    .home-page {
+        height: 135vh;
+    }
+}
+
