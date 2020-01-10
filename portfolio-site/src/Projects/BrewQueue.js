@@ -1,6 +1,6 @@
 import React from "react"
 
-class GameCouch extends React.Component {
+class BrewQueue extends React.Component {
     render(){
         return (
             <div className="project-show-page">
@@ -12,48 +12,41 @@ class GameCouch extends React.Component {
                             <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                             <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                             <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                            <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                            <img src={require('../pictures/GameCouch/GC1.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/BrewQueue/BrewQ1.png')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Home Page</h5>
-                                <p>This page renders the name of the site, featured games, popular games and on the footer the API used.</p>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC2.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/BrewQueue/BrewQ2.png')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Search Games Page</h5>
-                                <p>This games page lets the user search for games by genre, popular year or by title through the search bar.</p>
+                                <h5>Search Functionality</h5>
+                                <p>From the home page a user can search a city and breweries will be rendered from the API.</p>
                             </div>
                             </div>
                             <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC3.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/BrewQueue/BrewQ3.png')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Game Show Page</h5>
+                                <h5>Brewery Show Page</h5>
+                                <p>Details of the brewery. Users are able to add reviews through this page and add the brewery to their queue.</p>
                             </div>
                             </div>
+
                             <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC4.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/BrewQueue/BrewQ4.png')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>User Profile Page</h5>
-                                <p>Once logged in the user can visit thier profile page. Shows their details, liked games and recent posts.</p>
+                                <p>Once logged in the user can visit thier profile page. Shows their details, comments the user has made on breweries and their "brewqueue".</p>
                             </div>
                             </div>
+
                             <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC5.png')} class="d-block w-100" alt="..."/>
+                            <img src={require('../pictures/BrewQueue/BrewQ5.png')} class="d-block w-100" alt="..."/>
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Non-User Profile Page</h5>
-                                <p>Page shows details of other users of Game Couch. Logged in users will have the option to follow them.</p>
-                            </div>
-                            </div>
-                            <div class="carousel-item">
-                            <img src={require('../pictures/GameCouch/GC6.png')} class="d-block w-100" alt="..."/>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Feed Page</h5>
-                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                <h5>Login Page</h5>
                             </div>
                             </div>
                         </div>
@@ -69,19 +62,18 @@ class GameCouch extends React.Component {
                 </div>
 
                 <div className="project-details container">
-                    <h1>The Game Couch</h1>
-                    <h3>React, Redux, Ruby on Rails, RAWG API</h3>
-                    <h5>A gaming community website where users can browse through games and connect/interact with other users.</h5>
-                    <div>Frontend constructed by using React with custom CSS and minimal components from BULMA’s framework.
-                        Integrated global state by using Redux for smooth page updates and better state management.
-                        Fetched game information based on genre, popularity and search terms from the RAWG video game database API.
-                        Implemented React Router for a multi-page interface. Incorporated full authentication using JWT tokens and Bcrypt.
+                    <h1>BrewQueue</h1>
+                    <h3>Ruby on Rails, Bootstrap, Open Brewery DB API</h3>
+                    <h5> A ruby on rails application for finding breweries in your area. Allowing you to review them and add them to your queue. </h5>
+                    <div>Designed and styled site using Bootstrap 4 along with customized CSS styles/animations. 
+                        Integrated Open Brewery DB API to locate breweries in the area the user searched.
+                        Implemented full CRUD functionality for a user to be able to create, edit, and destroy their reviews.
+                        Incorporated user authentication by using bcrypt gems and persisting user sessions using cookies.
                     </div>
-                    
                 </div>
             </div>
         )
     }
 }
 
-export default GameCouch
+export default BrewQueue

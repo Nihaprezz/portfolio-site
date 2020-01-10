@@ -19,12 +19,12 @@ class ProjectsPage extends React.Component {
 
                 <div className="project-card">
                     <p>BrewQueue</p>
-                    <div className="bq-img project-img"></div>
+                    <Link to="/projects/brewqueue"><div className="bq-img project-img"></div></Link>
                 </div>
 
                 <div className="project-card">
                     <p>Burger Diner</p>
-                    <div className="bd-img project-img"></div>
+                    <Link to="/projects/burgerdiner"><div className="bd-img project-img"></div></Link>
                 </div>
             </div>
         )
