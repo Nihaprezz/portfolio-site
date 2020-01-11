@@ -20,9 +20,25 @@
         font-family: $primaryFont;
         font-size: 2vw;
         background: $orange;
-        color: $purple;
         padding: 0% 1%;
-        cursor: pointer;
+
+        a {
+            color: $purple;
+            transition: all .3s ease-in;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .project-img {
+        transition: box-shadow 0.5s;
+    }
+
+    .project-img:hover {
+        box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.9);
     }
 }
 
@@ -61,7 +77,33 @@
         width: 100vw;
         height: 33vh;
     }
+
+    .project-card {
+        a {
+            font-size: 5vw !important;
+        }
+    }
 }
+
+@media (max-width: 1024px){
+    .projects-page {
+        padding-top: 3%;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .project-img {
+        width: 100vw;
+        height: 27vh;
+    }
+
+    .project-card {
+        a {
+            font-size: 3vw;
+        }
+    }
+}
+
 
 
 //Projects Show Page
