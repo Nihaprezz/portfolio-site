@@ -1,6 +1,12 @@
 @import 'variables.scss';
 
 // NAVBAR STYLING *****
+.navbar-toggler {
+    background: $blue !important;
+}
+
+
+
 #my-nav-bar {
     background: $purple !important;
 }

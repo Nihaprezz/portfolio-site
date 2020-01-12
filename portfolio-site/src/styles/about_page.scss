@@ -1,0 +1,126 @@
+@import 'variables.scss';
+
+.about-page {
+    border: 1px solid $purple;
+    background: $purple;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    font-family: $primaryFont;
+}
+
+.about-container {
+    margin-top: 10%;
+
+    h1 {
+        color: $orange;
+        letter-spacing: .3vh;
+        font-weight: bold;
+    }
+
+    h4 {
+        letter-spacing: .1vh;
+    }
+
+    h4 span {
+        font-weight: bold;
+    }
+}
+
+.technical-skills {
+    
+    h2 {
+        color: $orange;
+        font-weight: bold;
+        letter-spacing: .2vh;
+    }
+
+    div h5 {
+        font-weight: bold;
+        letter-spacing: .2vh;
+    }
+}
+
+.about-me-contact-icons {
+    margin-top: 2%;
+    font-size: 3rem;
+
+    a:first-child {
+        padding-left: 0;
+    }
+
+    a {
+        color: white;
+        padding-left: 3%;
+        padding-right: 3%;
+
+        :hover {
+            color: $orange;
+        }
+    }
+
+    
+    i {
+        transition: all .2s ease-in;
+    }
+
+    i:hover {
+        transform: scale(1.2);
+    }
+
+}
+
+@media (max-width: 420px){
+    .about-container {
+       
+        h1 {
+            font-size: 2rem !important;
+        }
+
+        h4 {
+            font-size: 1.2rem !important;
+        }
+    }
+
+    .technical-skills {
+        h2 {
+            font-size: 2rem !important;
+        }
+
+        div h5 {
+            font-size: 1.2rem !important;
+        }
+    }
+
+    .about-me-contact-icons {
+        font-size: 2rem !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about-container {
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h4 {
+            font-size: 2rem;
+        }
+    }
+
+    .technical-skills {
+
+        h2 {
+            font-size: 4rem;
+        }
+
+        div h5 {
+            font-size: 2rem;
+        }
+    }
+
+    .about-me-contact-icons {
+        font-size: 4rem;
+    }
+}

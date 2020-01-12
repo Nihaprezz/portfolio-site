@@ -71,13 +71,13 @@
 
 
 
-@media (max-width: 375px){
+@media (max-width: 376px){
     .projects-page {
         grid-row-gap: 1vh !important;
     }
 
     .project-img {
-        margin-top: -8vw;
+        margin-top: -5vw !important;
     }
 }
 
