@@ -7,7 +7,7 @@ class About extends React.Component {
             <div className="about-page">
                 <div className="about-container">
                     <h1>Sergio Perez</h1>
-                    <h4>Sergio is a <span>Software Engineer/Full Stack Web </span> Developer with a background in the IT industry, proficient in Ruby, Ruby on Rails, JavaScript, and React/Redux. He loves to create and has a passion for bringing ideas to life. Previously this was done through drawings/paintings but this has transitioned beautifully into coding applications. With the debugging and troubleshooting experience provided from the IT industry he has developed a love for problem solving.</h4>
+                    <h4>Sergio is a <span>Software Engineer/Full Stack Web Developer </span> with a background in the IT industry, proficient in Ruby, Ruby on Rails, JavaScript, and React/Redux. He loves to create and has a passion for bringing ideas to life. Previously this was done through drawings/paintings but this has transitioned beautifully into coding applications. With the debugging and troubleshooting experience provided from the IT industry he has developed a love for problem solving.</h4>
                     <div className="technical-skills">
                         <h2>Technical Skills</h2>
                         <div>

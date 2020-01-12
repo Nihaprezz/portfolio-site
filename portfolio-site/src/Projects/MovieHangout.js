@@ -1,6 +1,11 @@
 import React from "react"
 
 class MovieHangout extends React.Component {
+
+    goBack = () => {
+        window.history.back();
+    }
+    
     render(){
         return (
             <div className="project-show-page">
@@ -76,6 +81,7 @@ class MovieHangout extends React.Component {
                             Github <i class="fab fa-github"></i>
                             </a>
                         </button>
+                        <button onClick={this.goBack}>Back <i class="fas fa-backward"></i></button>
                     </div>
                 </div>
             </div>

@@ -72,3 +72,11 @@
 
 
 }
+
+@media (max-width: 414px ){
+    .carousel-item {
+        img {
+            height: 35vh !important;
+        }
+    }
+}

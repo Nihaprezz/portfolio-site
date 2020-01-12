@@ -12,7 +12,7 @@ class HomePage extends React.Component {
 
                     <p className="i-am">I am a Fullstack Web Developer.</p>
 
-                    <Link to="/projects"><button>Projects</button></Link>
+                    <Link to="/projects"><button >Projects</button></Link>
 
                     <div className="home-icons">
                         {/* eslint-disable-next-line */}
