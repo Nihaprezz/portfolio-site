@@ -70,12 +70,26 @@ class GameCouch extends React.Component {
 
                 <div className="project-details container">
                     <h1>The Game Couch</h1>
-                    <h3>React, Redux, Ruby on Rails, RAWG API</h3>
+                    <h3>React | Redux | Ruby on Rails | RAWG API</h3>
                     <h5>A gaming community website where users can browse through games and connect/interact with other users.</h5>
                     <div>Frontend constructed by using React with custom CSS and minimal components from BULMA’s framework.
                         Integrated global state by using Redux for smooth page updates and better state management.
                         Fetched game information based on genre, popularity and search terms from the RAWG video game database API.
                         Implemented React Router for a multi-page interface. Incorporated full authentication using JWT tokens and Bcrypt.
+                    </div>
+                    <div className="project-links">
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://youtu.be/tbwp5T4BzNk">
+                            View Demo <i class="fab fa-youtube"></i>
+                            </a>
+                        </button> 
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://github.com/Nihaprezz/game_couch_frontend">
+                            Github <i class="fab fa-github"></i>
+                            </a>
+                        </button>
                     </div>
                     
                 </div>

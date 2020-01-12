@@ -55,11 +55,25 @@ class BurgerDiner extends React.Component {
 
                 <div className="project-details container">
                     <h1>Burger Diner</h1>
-                    <h3>JavaScript, Ruby on Rails, Semantic UI</h3>
+                    <h3>JavaScript | Ruby on Rails | Semantic UI</h3>
                     <h5>Burger making game, where the user is shown a recipe and is to build out the burger within a given time.</h5>
                     <div>Designed and constructed the Front-End UI using custom CSS, keyframes and Semantic UI styling.
                         Used a SQLite3 database and developed a Ruby on Rails API backend complete with serialization to get recipe data.
                         Manipulated the DOM through pure JavaScript. Optimized code to account for all game levels and any new levels being added later on.
+                    </div>
+                    <div className="project-links">
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://www.youtube.com/channel/UCi4RkIqq5VP84afKx4qtBkA?view_as=subscriber">
+                            View Demo <i class="fab fa-youtube"></i>
+                            </a>
+                        </button> 
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://github.com/Nihaprezz/burgerdiner-front-end">
+                            Github <i class="fab fa-github"></i>
+                            </a>
+                        </button>
                     </div>
                     
                 </div>

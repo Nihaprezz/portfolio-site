@@ -1,4 +1,5 @@
 import React from "react"
+import "../styles/project_show_page.scss"
 
 class BrewQueue extends React.Component {
     render(){
@@ -63,12 +64,26 @@ class BrewQueue extends React.Component {
 
                 <div className="project-details container">
                     <h1>BrewQueue</h1>
-                    <h3>Ruby on Rails, Bootstrap, Open Brewery DB API</h3>
+                    <h3>Ruby on Rails | Bootstrap | Open Brewery DB API</h3>
                     <h5> A ruby on rails application for finding breweries in your area. Allowing you to review them and add them to your queue. </h5>
                     <div>Designed and styled site using Bootstrap 4 along with customized CSS styles/animations. 
                         Integrated Open Brewery DB API to locate breweries in the area the user searched.
                         Implemented full CRUD functionality for a user to be able to create, edit, and destroy their reviews.
                         Incorporated user authentication by using bcrypt gems and persisting user sessions using cookies.
+                    </div>
+                    <div className="project-links">
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://youtu.be/qxlLTEEbWWc">
+                            View Demo <i class="fab fa-youtube"></i>
+                            </a>
+                        </button> 
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://github.com/Nihaprezz/brewPilgrim">
+                            Github <i class="fab fa-github"></i>
+                            </a>
+                        </button>
                     </div>
                 </div>
             </div>

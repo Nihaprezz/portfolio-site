@@ -55,7 +55,7 @@ class MovieHangout extends React.Component {
 
                 <div className="project-details container">
                     <h1>Movie Hangout</h1>
-                    <h3>React, Ruby on Rails, Semantic UI, The Movie DB API</h3>
+                    <h3>React | Ruby on Rails | Semantic UI | The Movie DB API</h3>
                     <h5>Movie site where users can search for movies or browse by genre/ratings, users can like movies and review them.</h5>
                     <div>Designed and constructed the Front-End UI using React with custom CSS and Semantic UI styling.
                         Used a PostgreSQL database and developed a RESTful Rails API backend with endpoints for users, movies, liked movies and comments.
@@ -63,7 +63,20 @@ class MovieHangout extends React.Component {
                         Built full authentication structure with JWT for app security. Storing encrypted user information by using localStorage.
                         Integrated The Movie DB API to show featured movies and live ratings.
                     </div>
-                    
+                    <div className="project-links">
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://youtu.be/iSQBKPTajK4">
+                            View Demo <i class="fab fa-youtube"></i>
+                            </a>
+                        </button> 
+                        <button>
+                            {/* eslint-disable-next-line */}
+                            <a target="_blank" href="https://github.com/Nihaprezz/movie-hangout-backend">
+                            Github <i class="fab fa-github"></i>
+                            </a>
+                        </button>
+                    </div>
                 </div>
             </div>
         )
