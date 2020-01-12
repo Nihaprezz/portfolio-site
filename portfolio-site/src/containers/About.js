@@ -6,9 +6,9 @@ class About extends React.Component {
         return (
             <div className="about-page">
                 <div className="about-container">
-                    <h1>Sergio Perez</h1>
-                    <h4>Sergio is a <span>Software Engineer/Full Stack Web Developer </span> with a background in the IT industry, proficient in Ruby, Ruby on Rails, JavaScript, and React/Redux. He loves to create and has a passion for bringing ideas to life. Previously this was done through drawings/paintings but this has transitioned beautifully into coding applications. With the debugging and troubleshooting experience provided from the IT industry he has developed a love for problem solving.</h4>
-                    <div className="technical-skills">
+                    <h1 className="animated slideInLeft">Sergio Perez</h1>
+                    <h4 className="animated slideInLeft">Sergio is a <span>Software Engineer/Full Stack Web Developer </span> with a background in the IT industry, proficient in Ruby, Ruby on Rails, JavaScript, and React/Redux. He loves to create and has a passion for bringing ideas to life. Previously this was done through drawings/paintings but this has transitioned beautifully into coding applications. With the debugging and troubleshooting experience provided from the IT industry he has developed a love for problem solving.</h4>
+                    <div className="technical-skills animated slideInRight">
                         <h2>Technical Skills</h2>
                         <div>
                             <h5>Ruby, Ruby on Rails, Javascript, React, Redux, Sinatra, HTML5</h5>
@@ -17,7 +17,7 @@ class About extends React.Component {
                         </div>
                     </div>
 
-                    <div className="about-me-contact-icons">
+                    <div className="about-me-contact-icons animated slideInLeft">
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://github.com/Nihaprezz">
                             <i class="fab fa-github"></i>
@@ -29,17 +29,17 @@ class About extends React.Component {
                         </a>
                         
                         {/* eslint-disable-next-line */}
-                        <a target="_blank" href="https://github.com/Nihaprezz">
+                        <a target="_blank" href="https://twitter.com/nihaprezz">
                             <i class="fab fa-twitter-square"></i>
                         </a>
 
                         {/* eslint-disable-next-line */}
-                        <a target="_blank" href="https://github.com/Nihaprezz">
+                        <a target="_blank" href="https://codepen.io/Nihaprezz">
                             <i class="fab fa-codepen"></i>
                         </a>
 
                         {/* eslint-disable-next-line */}
-                        <a target="_blank" href="https://github.com/Nihaprezz">
+                        <a href="mailto: sergioaprez@outlook.com">
                             <i class="fas fa-paper-plane"></i>
                         </a>
                     </div>

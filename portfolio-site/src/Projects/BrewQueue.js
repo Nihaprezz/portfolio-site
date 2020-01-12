@@ -10,7 +10,7 @@ class BrewQueue extends React.Component {
     render(){
         return (
             <div className="project-show-page">
-                <div className="project-screenshots container">
+                <div className="project-screenshots container animated flipInX">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -67,7 +67,7 @@ class BrewQueue extends React.Component {
                     </div>
                 </div>
 
-                <div className="project-details container">
+                <div className="project-details container animated flipInX">
                     <h1>BrewQueue</h1>
                     <h3>Ruby on Rails | Bootstrap | Open Brewery DB API</h3>
                     <h5> A ruby on rails application for finding breweries in your area. Allowing you to review them and add them to your queue. </h5>

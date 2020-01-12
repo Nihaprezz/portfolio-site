@@ -76,7 +76,7 @@
         button:hover{
             background: $lightpurple;
             box-shadow: 0px 0px 20px $lightpurple;
-            transform: scale(1.1);
+            transform: scale(1.2);
         }
         
     }
@@ -93,6 +93,7 @@
 
         i:hover {
             transform: scale(1.1);
+            color: $orange;
         }
     }
 }

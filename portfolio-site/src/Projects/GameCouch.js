@@ -9,7 +9,7 @@ class GameCouch extends React.Component {
     render(){
         return (
             <div className="project-show-page">
-                <div className="project-screenshots container">
+                <div className="project-screenshots container animated flipInX">
                     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -73,7 +73,7 @@ class GameCouch extends React.Component {
                     </div>
                 </div>
 
-                <div className="project-details container">
+                <div className="project-details container animated flipInX">
                     <h1>The Game Couch</h1>
                     <h3>React | Redux | Ruby on Rails | RAWG API</h3>
                     <h5>A gaming community website where users can browse through games and connect/interact with other users.</h5>

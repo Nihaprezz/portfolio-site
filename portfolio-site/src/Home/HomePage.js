@@ -8,13 +8,13 @@ class HomePage extends React.Component {
         return (
             <div className="home-page">
                 <div className="home-page-details-container">
-                    <p className="intro">Hi, my name is <span>Sergio Perez</span>.</p>
+                    <p className="intro animated bounceInLeft">Hi, my name is <span>Sergio Perez</span>.</p>
 
-                    <p className="i-am">I am a Fullstack Web Developer.</p>
+                    <p className="i-am animated bounceInRight">I am a Fullstack Web Developer.</p>
 
-                    <Link to="/projects"><button >Projects</button></Link>
+                    <Link to="/projects"><button className="animated bounceInUp delay-1s" >Projects</button></Link>
 
-                    <div className="home-icons">
+                    <div className="home-icons animated bounceInUp delay-1s">
                         {/* eslint-disable-next-line */}
                         <a target="_blank" href="https://github.com/Nihaprezz">
                             <i class="fab fa-github"></i>
