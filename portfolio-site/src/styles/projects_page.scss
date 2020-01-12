@@ -24,6 +24,8 @@
 
         a {
             color: $purple;
+            letter-spacing: .3vh;
+            text-transform: uppercase;
             transition: all .3s ease-in;
         }
         
@@ -67,6 +69,19 @@
     height: 45vh;
 }
 
+
+
+@media (max-width: 375px){
+    .projects-page {
+        grid-row-gap: 1vh !important;
+    }
+
+    .project-img {
+        margin-top: -8vw;
+    }
+}
+
+
 @media only screen and (max-width: 500px) {
     .projects-page {
         grid-template-columns: 1fr;
@@ -75,13 +90,19 @@
                   
     .project-img {
         width: 100vw;
-        height: 33vh;
+        height: 33vh !important;
     }
 
     .project-card {
         a {
             font-size: 5vw !important;
         }
+    }
+}
+
+@media (max-height: 700px){
+    .projects-page {
+        grid-row-gap: 4vh !important;
     }
 }
 
@@ -94,7 +115,7 @@
 
     .project-img {
         width: 100vw;
-        height: 27vh;
+        height: 43vh;
     }
 
     .project-card {
